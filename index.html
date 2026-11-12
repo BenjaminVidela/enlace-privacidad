@@ -4,23 +4,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Política de Privacidad — Enlace</title>
+<meta name="theme-color" content="#120B33">
+<link rel="preload" href="fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
 
-  <div class="lang-switch" id="langSwitch">
-    <button type="button" data-lang="es">Español</button>
-    <button type="button" data-lang="pt">Português</button>
-    <button type="button" data-lang="en">English</button>
+  <div class="top">
+    <div class="logo"><span class="logo-puntos"><i></i><i></i><i></i></span>Enlace</div>
+    <div class="lang-switch" id="langSwitch">
+      <button type="button" data-lang="es">ES</button>
+      <button type="button" data-lang="pt">PT</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
   </div>
 
-  <div class="logo">Enlace<span>.</span></div>
+  <nav class="tabs">
+    <a href="index.html" data-tab="privacidad" aria-current="page"><span data-t-es>Privacidad</span><span data-t-pt hidden>Privacidade</span><span data-t-en hidden>Privacy</span></a>
+    <a href="terminos.html" data-tab="terminos"><span data-t-es>Condiciones</span><span data-t-pt hidden>Termos</span><span data-t-en hidden>Terms</span></a>
+  </nav>
 
   <!-- ES ============================================================ -->
   <div class="policy" data-lang="es">
-    <div class="subtitulo">Política de Privacidad · Última actualización: 29 de julio de 2026</div>
     <h1>Política de Privacidad</h1>
+    <div class="subtitulo">Última actualización: 29 de julio de 2026</div>
 
     <section>
       <h2>Datos que recopilamos</h2>
@@ -29,17 +37,17 @@
 
     <section>
       <h2>Publicidad (Google AdMob)</h2>
-      <p>Enlace usa <strong>Google AdMob</strong> para mostrar dos tipos de anuncios: anuncios de video recompensado <strong>opcionales</strong> (a cambio de pistas extra, podés jugar sin verlos) y anuncios intersticiales de pantalla completa que aparecen automáticamente entre niveles de los modos Clásico y Laberinto, espaciados por varios niveles y por algunos minutos (nunca en Contrarreloj ni en el Desafío diario). Para esto, Google Mobile Ads SDK puede recopilar identificadores de publicidad y datos de uso del dispositivo, según la <a href="https://policies.google.com/privacy" style="color:#EA580C">Política de Privacidad de Google</a>. Para usuarios de la Unión Europea, el Espacio Económico Europeo, el Reino Unido y Suiza, pedimos consentimiento antes de mostrar anuncios personalizados a través de la plataforma de mensajes de consentimiento de Google (UMP) — podés cambiar tu elección en cualquier momento desde Ajustes, dentro de la app.</p>
+      <p>Enlace usa <strong>Google AdMob</strong> para mostrar dos tipos de anuncios: anuncios de video recompensado <strong>opcionales</strong> (a cambio de pistas extra, podés jugar sin verlos) y anuncios intersticiales de pantalla completa que aparecen automáticamente entre niveles de los modos Clásico y Laberinto, espaciados por varios niveles y por algunos minutos (nunca en Contrarreloj ni en el Desafío diario). Para esto, Google Mobile Ads SDK puede recopilar identificadores de publicidad y datos de uso del dispositivo, según la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>. Para usuarios de la Unión Europea, el Espacio Económico Europeo, el Reino Unido y Suiza, pedimos consentimiento antes de mostrar anuncios personalizados a través de la plataforma de mensajes de consentimiento de Google (UMP) — podés cambiar tu elección en cualquier momento desde Ajustes, dentro de la app.</p>
     </section>
 
     <section>
       <h2>Analítica y estabilidad (Firebase)</h2>
-      <p>Enlace usa <strong>Firebase Analytics</strong> y <strong>Firebase Crashlytics</strong> (Google) para entender cómo se usa la app (por ejemplo, qué niveles o modos se juegan más) y para detectar fallos técnicos automáticamente. Estas herramientas recopilan datos de uso y del dispositivo, no datos personales identificables como nombre o correo electrónico, según la <a href="https://policies.google.com/privacy" style="color:#EA580C">Política de Privacidad de Google</a>.</p>
+      <p>Enlace usa <strong>Firebase Analytics</strong> y <strong>Firebase Crashlytics</strong> (Google) para entender cómo se usa la app (por ejemplo, qué niveles o modos se juegan más) y para detectar fallos técnicos automáticamente. Estas herramientas recopilan datos de uso y del dispositivo, no datos personales identificables como nombre o correo electrónico, según la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</p>
     </section>
 
     <section>
       <h2>Compras dentro de la app (Google Play Billing)</h2>
-      <p>Enlace ofrece una compra única opcional, "Quitar anuncios", que elimina los anuncios intersticiales entre niveles (el video recompensado para pistas sigue disponible igual). El pago se procesa enteramente a través de <strong>Google Play Billing</strong> — Enlace nunca ve ni almacena datos de tu tarjeta ni de tu método de pago; eso lo maneja Google según su propia <a href="https://policies.google.com/privacy" style="color:#EA580C">Política de Privacidad</a>. Lo único que la app guarda es si ya realizaste esa compra, almacenado localmente en tu dispositivo igual que el resto del progreso, para saber si debe dejar de mostrarte anuncios.</p>
+      <p>Enlace ofrece una compra única opcional, "Quitar anuncios", que elimina los anuncios intersticiales entre niveles (el video recompensado para pistas sigue disponible igual). El pago se procesa enteramente a través de <strong>Google Play Billing</strong> — Enlace nunca ve ni almacena datos de tu tarjeta ni de tu método de pago; eso lo maneja Google según su propia <a href="https://policies.google.com/privacy">Política de Privacidad</a>. Lo único que la app guarda es si ya realizaste esa compra, almacenado localmente en tu dispositivo igual que el resto del progreso, para saber si debe dejar de mostrarte anuncios.</p>
     </section>
 
     <section>
@@ -59,14 +67,15 @@
 
     <div class="footer-legal">
       © 2026 V1DELA Studios · Todos los derechos reservados<br>
-      Esta aplicación no recopila datos personales identificables.
+      Esta aplicación no recopila datos personales identificables.<br>
+      <a href="terminos.html" data-link-lang>Condiciones del Servicio</a>
     </div>
   </div>
 
   <!-- PT ============================================================ -->
   <div class="policy" data-lang="pt" hidden>
-    <div class="subtitulo">Política de Privacidade · Última atualização: 29 de julho de 2026</div>
     <h1>Política de Privacidade</h1>
+    <div class="subtitulo">Última atualização: 29 de julho de 2026</div>
 
     <section>
       <h2>Dados que coletamos</h2>
@@ -75,17 +84,17 @@
 
     <section>
       <h2>Publicidade (Google AdMob)</h2>
-      <p>O Enlace usa o <strong>Google AdMob</strong> para exibir dois tipos de anúncios: anúncios em vídeo recompensado <strong>opcionais</strong> (em troca de dicas extras, você pode jogar sem assisti-los) e anúncios intersticiais em tela cheia que aparecem automaticamente entre níveis dos modos Clássico e Labirinto, espaçados por vários níveis e alguns minutos (nunca no Contrarrelógio nem no Desafio diário). Para isso, o Google Mobile Ads SDK pode coletar identificadores de publicidade e dados de uso do dispositivo, conforme a <a href="https://policies.google.com/privacy" style="color:#EA580C">Política de Privacidade do Google</a>. Para usuários da União Europeia, do Espaço Econômico Europeu, do Reino Unido e da Suíça, solicitamos consentimento antes de exibir anúncios personalizados através da plataforma de mensagens de consentimento do Google (UMP) — você pode alterar sua escolha a qualquer momento em Ajustes, dentro do app.</p>
+      <p>O Enlace usa o <strong>Google AdMob</strong> para exibir dois tipos de anúncios: anúncios em vídeo recompensado <strong>opcionais</strong> (em troca de dicas extras, você pode jogar sem assisti-los) e anúncios intersticiais em tela cheia que aparecem automaticamente entre níveis dos modos Clássico e Labirinto, espaçados por vários níveis e alguns minutos (nunca no Contrarrelógio nem no Desafio diário). Para isso, o Google Mobile Ads SDK pode coletar identificadores de publicidade e dados de uso do dispositivo, conforme a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>. Para usuários da União Europeia, do Espaço Econômico Europeu, do Reino Unido e da Suíça, solicitamos consentimento antes de exibir anúncios personalizados através da plataforma de mensagens de consentimento do Google (UMP) — você pode alterar sua escolha a qualquer momento em Ajustes, dentro do app.</p>
     </section>
 
     <section>
       <h2>Análise e estabilidade (Firebase)</h2>
-      <p>O Enlace usa o <strong>Firebase Analytics</strong> e o <strong>Firebase Crashlytics</strong> (Google) para entender como o app é usado (por exemplo, quais níveis ou modos são mais jogados) e para detectar falhas técnicas automaticamente. Essas ferramentas coletam dados de uso e do dispositivo, não dados pessoais identificáveis como nome ou e-mail, conforme a <a href="https://policies.google.com/privacy" style="color:#EA580C">Política de Privacidade do Google</a>.</p>
+      <p>O Enlace usa o <strong>Firebase Analytics</strong> e o <strong>Firebase Crashlytics</strong> (Google) para entender como o app é usado (por exemplo, quais níveis ou modos são mais jogados) e para detectar falhas técnicas automaticamente. Essas ferramentas coletam dados de uso e do dispositivo, não dados pessoais identificáveis como nome ou e-mail, conforme a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
     </section>
 
     <section>
       <h2>Compras no aplicativo (Google Play Billing)</h2>
-      <p>O Enlace oferece uma compra única opcional, "Remover anúncios", que elimina os anúncios intersticiais entre níveis (o vídeo recompensado para dicas continua disponível normalmente). O pagamento é processado inteiramente através do <strong>Google Play Billing</strong> — o Enlace nunca vê nem armazena dados do seu cartão ou método de pagamento; isso é gerenciado pelo Google conforme sua própria <a href="https://policies.google.com/privacy" style="color:#EA580C">Política de Privacidade</a>. A única coisa que o app salva é se você já realizou essa compra, armazenado localmente no seu dispositivo, assim como o resto do progresso, para saber se deve parar de exibir anúncios.</p>
+      <p>O Enlace oferece uma compra única opcional, "Remover anúncios", que elimina os anúncios intersticiais entre níveis (o vídeo recompensado para dicas continua disponível normalmente). O pagamento é processado inteiramente através do <strong>Google Play Billing</strong> — o Enlace nunca vê nem armazena dados do seu cartão ou método de pagamento; isso é gerenciado pelo Google conforme sua própria <a href="https://policies.google.com/privacy">Política de Privacidade</a>. A única coisa que o app salva é se você já realizou essa compra, armazenado localmente no seu dispositivo, assim como o resto do progresso, para saber se deve parar de exibir anúncios.</p>
     </section>
 
     <section>
@@ -105,14 +114,15 @@
 
     <div class="footer-legal">
       © 2026 V1DELA Studios · Todos os direitos reservados<br>
-      Este aplicativo não coleta dados pessoais identificáveis.
+      Este aplicativo não coleta dados pessoais identificáveis.<br>
+      <a href="terminos.html" data-link-lang>Termos de Serviço</a>
     </div>
   </div>
 
   <!-- EN ============================================================ -->
   <div class="policy" data-lang="en" hidden>
-    <div class="subtitulo">Privacy Policy · Last updated: July 29, 2026</div>
     <h1>Privacy Policy</h1>
+    <div class="subtitulo">Last updated: July 29, 2026</div>
 
     <section>
       <h2>Data we collect</h2>
@@ -121,17 +131,17 @@
 
     <section>
       <h2>Advertising (Google AdMob)</h2>
-      <p>Enlace uses <strong>Google AdMob</strong> to show two types of ads: <strong>optional</strong> rewarded video ads (in exchange for extra hints — you can play without watching them) and full-screen interstitial ads that appear automatically between levels in Classic and Maze modes, spaced out by several levels and a few minutes (never in Time Attack or the Daily Challenge). For this, the Google Mobile Ads SDK may collect advertising identifiers and device usage data, according to <a href="https://policies.google.com/privacy" style="color:#EA580C">Google's Privacy Policy</a>. For users in the European Union, the European Economic Area, the United Kingdom, and Switzerland, we request consent before showing personalized ads through Google's consent messaging platform (UMP) — you can change your choice at any time from Settings, inside the app.</p>
+      <p>Enlace uses <strong>Google AdMob</strong> to show two types of ads: <strong>optional</strong> rewarded video ads (in exchange for extra hints — you can play without watching them) and full-screen interstitial ads that appear automatically between levels in Classic and Maze modes, spaced out by several levels and a few minutes (never in Time Attack or the Daily Challenge). For this, the Google Mobile Ads SDK may collect advertising identifiers and device usage data, according to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. For users in the European Union, the European Economic Area, the United Kingdom, and Switzerland, we request consent before showing personalized ads through Google's consent messaging platform (UMP) — you can change your choice at any time from Settings, inside the app.</p>
     </section>
 
     <section>
       <h2>Analytics and stability (Firebase)</h2>
-      <p>Enlace uses <strong>Firebase Analytics</strong> and <strong>Firebase Crashlytics</strong> (Google) to understand how the app is used (for example, which levels or modes are played most) and to automatically detect technical failures. These tools collect usage and device data, not personally identifiable data such as name or email, according to <a href="https://policies.google.com/privacy" style="color:#EA580C">Google's Privacy Policy</a>.</p>
+      <p>Enlace uses <strong>Firebase Analytics</strong> and <strong>Firebase Crashlytics</strong> (Google) to understand how the app is used (for example, which levels or modes are played most) and to automatically detect technical failures. These tools collect usage and device data, not personally identifiable data such as name or email, according to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
     </section>
 
     <section>
       <h2>In-app purchases (Google Play Billing)</h2>
-      <p>Enlace offers an optional one-time purchase, "Remove ads," which eliminates interstitial ads between levels (the rewarded video for hints stays available either way). Payment is processed entirely through <strong>Google Play Billing</strong> — Enlace never sees or stores your card or payment method data; that's handled by Google according to its own <a href="https://policies.google.com/privacy" style="color:#EA580C">Privacy Policy</a>. The only thing the app stores is whether you've already made that purchase, saved locally on your device just like the rest of your progress, so it knows whether to stop showing you ads.</p>
+      <p>Enlace offers an optional one-time purchase, "Remove ads," which eliminates interstitial ads between levels (the rewarded video for hints stays available either way). Payment is processed entirely through <strong>Google Play Billing</strong> — Enlace never sees or stores your card or payment method data; that's handled by Google according to its own <a href="https://policies.google.com/privacy">Privacy Policy</a>. The only thing the app stores is whether you've already made that purchase, saved locally on your device just like the rest of your progress, so it knows whether to stop showing you ads.</p>
     </section>
 
     <section>
@@ -151,41 +161,13 @@
 
     <div class="footer-legal">
       © 2026 V1DELA Studios · All rights reserved<br>
-      This application does not collect personally identifiable data.
+      This application does not collect personally identifiable data.<br>
+      <a href="terminos.html" data-link-lang>Terms of Service</a>
     </div>
   </div>
 
 </div>
 
-<script>
-  // Página pública, sin acceso al localStorage de la app (otro origen) —
-  // arranca según el idioma del navegador (navigator.language) en vez del
-  // localStorage que usa la copia bundleada dentro del APK (ver
-  // www/privacidad.html en el repo de la app). El switcher de acá arriba
-  // deja cambiarlo a mano para esta vista.
-  (function () {
-    var soportados = ['es', 'pt', 'en'];
-    var detectado = (navigator.language || 'es').slice(0, 2).toLowerCase();
-    var idiomaInicial = soportados.indexOf(detectado) !== -1 ? detectado : 'es';
-
-    var switchEl = document.getElementById('langSwitch');
-
-    function mostrarIdioma(lang) {
-      document.querySelectorAll('.policy').forEach(function (el) {
-        el.hidden = el.getAttribute('data-lang') !== lang;
-      });
-      switchEl.querySelectorAll('button').forEach(function (btn) {
-        btn.classList.toggle('activo', btn.getAttribute('data-lang') === lang);
-      });
-      document.documentElement.lang = lang;
-    }
-
-    switchEl.querySelectorAll('button').forEach(function (btn) {
-      btn.addEventListener('click', function () { mostrarIdioma(btn.getAttribute('data-lang')); });
-    });
-
-    mostrarIdioma(idiomaInicial);
-  })();
-</script>
+<script src="idioma.js"></script>
 </body>
 </html>
